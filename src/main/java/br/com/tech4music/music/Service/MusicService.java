@@ -12,4 +12,5 @@ public interface MusicService {
     MusicDto cadastrarMusic(MusicDto music);
     Optional <MusicDto> atualizarMusicPorId(String id, MusicDto music);    
     void deletarPorId(String id);
+    
 }
